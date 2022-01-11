@@ -82,7 +82,7 @@ const Portfolio = () => {
                         xs: '36px',
                         md: '20px'
                     },
-                    top: { lg: '650px', md: '500px', xs: '1200px' },
+                    top: { lg: '650px', md: '500px', xs: '1350px' },
                     '&::before': {
                         content: '""',
                         border: 'solid rgb(255, 255, 255)',
@@ -114,7 +114,7 @@ const Portfolio = () => {
                     position: 'absolute',
                     left: '51%',
                     borderRadius: ' 10px',
-                    top: { lg: '660px ', xs: '1200px', md: '500px' },
+                    top: { lg: '660px ', xs: '1350px', md: '500px' },
                     '&::before': {
                         content: '""',
                         height: '5px',

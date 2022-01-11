@@ -17,7 +17,7 @@ const Contact = () => {
                 position: 'absolute',
                 width: '5px',
                 top: { lg: '70px', xs: '20px' },
-                right: { lg: '670px', xs: '50px' },
+                right: { lg: '550px', xs: '50px' },
                 borderRadius: '2px',
                 transform: 'rotate()',
                 '&::after': {
@@ -84,7 +84,7 @@ const Contact = () => {
                                     background: '#5454D4',
                                     fontWeight: '400',
                                     marginTop: '30px',
-                                    marginLeft: { lg:'150px',xs:'30px'}
+                                    marginLeft: { lg:'370px',xs:'30px'}
                                 }}
                         >Contact us</Button>
                     </Grid>
