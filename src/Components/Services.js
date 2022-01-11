@@ -33,7 +33,7 @@ const Services = () => {
                 width: {lg:'309.94px',xs:'100px'},
                 height: {lg:'337.48px',xs:'100px'},
                 left: { lg:'223px',xs:'50px'},
-                top: '1730px',
+                top: '1650px',
                 background: 'linear-gradient(180deg, rgba(84, 84, 212, 0.6) 0%, rgba(84, 84, 212, 0.0882) 100%)',
                 filter: 'blur(199.107px)',
                 borderRadius: '154.972px',
