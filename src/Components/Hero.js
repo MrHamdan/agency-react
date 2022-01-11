@@ -30,7 +30,6 @@ const Hero = () => {
                     <Grid item xs={12} sm={12} lg={4} md={6} >
                         <Box sx={{
                             position: 'relative',
-                            textAlign: 'center',
                             '&::before': {
                                 position: 'absolute',
                                 content: '" "',
@@ -38,15 +37,15 @@ const Hero = () => {
                                 height: '249px',
                                 width: '249px',
                                 left: {
-                                    lg: '77px',
-                                    xs: '60px',
+                                    lg: '50px',
+                                    xs: '50px',
                                     md: '100px'
                                 },
                                 bottom: '36px',
                                 transform: 'rotate(24deg)',
                                 borderRadius: '10px',
                                 background: '#5454D4',
-
+                                top:'136px'
 
 
                             },
@@ -56,7 +55,7 @@ const Hero = () => {
                                 position: 'absolute',
 
                                 border: '1px solid #fff',
-                                left: { lg: '50px', xs: '50px', md: '80px' },
+                                left: { lg: '20px', xs: '40px', md: '80px' },
                                 bottom: '84px',
                                 transform: 'rotate(24deg)',
                                 borderRadius: '10px',
@@ -189,7 +188,7 @@ const Hero = () => {
                                         height: '50px',
                                         borderRadius: '50%',
                                         position: 'absolute',
-                                        top: { lg: '15px', xs: '0px', md: '20px' },
+                                        top: { lg: '15px', xs: '20px', md: '20px' },
                                         left: '10px',
                                         border: '3px solid #fff',
                                         opacity: '0.5'
