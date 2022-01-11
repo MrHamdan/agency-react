@@ -9,7 +9,7 @@ const Hero = () => {
         <Container maxWidth="lg" sx={{ paddingTop: '98px' }}>
             <Box sx={{ flexGrow: 1 }}>
                 <Grid container spacing={2}>
-                    <Grid item xs={12} sm={12} lg={8} md={5}>
+                    <Grid item xs={12} sm={12} lg={8} md={6}>
                         <Typography sx={{
                             fontWeight: 'bold',
                             fontSize: { lg: '53px', xs: '40px' },
@@ -39,13 +39,13 @@ const Hero = () => {
                                 left: {
                                     lg: '50px',
                                     xs: '50px',
-                                    md: '100px'
+                                    md: '52px'
                                 },
                                 bottom: '36px',
                                 transform: 'rotate(24deg)',
                                 borderRadius: '10px',
                                 background: '#5454D4',
-                                top:'136px'
+                                top: '137px'
 
 
                             },
@@ -55,7 +55,7 @@ const Hero = () => {
                                 position: 'absolute',
 
                                 border: '1px solid #fff',
-                                left: { lg: '20px', xs: '40px', md: '80px' },
+                                left: { lg: '20px', xs: '40px', md: '30px' },
                                 bottom: '84px',
                                 transform: 'rotate(24deg)',
                                 borderRadius: '10px',
@@ -74,7 +74,8 @@ const Hero = () => {
                                 position: 'absolute',
                                 left: {
                                     lg: '-50px',
-                                    xs: '16px'
+                                    xs: '16px',
+                                    md:'-30px'
                                 },
                                 top: { lg: '20px', md: '50px', xs: '30px' },
                                 '&::before': {
@@ -105,7 +106,7 @@ const Hero = () => {
                                     position: 'absolute',
                                     width: '27px',
                                     height: '53px',
-                                    left: { lg: '-50px', xs: '10px', md: '1   0px' },
+                                    left: { lg: '-50px', xs: '10px', md: '-20px' },
                                     right: ' 0px',
                                     top: { lg: '350px', xs: '380px' },
                                     borderLeft: '3.65476px solid #E7E7E7',
@@ -140,7 +141,7 @@ const Hero = () => {
                                     position: 'absolute',
                                     width: '27px',
                                     height: '53px',
-                                    left: { lg: '-40px', md: '20px', xs: '20px' },
+                                    left: { lg: '-40px', md: '-10px', xs: '20px' },
                                     right: '0px',
                                     top: { lg: '371px', xs: '400px' },
                                     borderLeft: "1.65476px solid #E7E7E7",
@@ -180,7 +181,7 @@ const Hero = () => {
                                     borderRadius: '50% ',
                                     position: 'absolute',
                                     fontWeight: 'bold',
-                                    left: { lg: '350px', xs: '270px', md: '400px' },
+                                    left: { lg: '350px', xs: '270px', md: '330px' },
                                     top: { lg: '0px', xs: '20px', md: '30px' },
                                     '&::before': {
                                         content: '""',
@@ -204,7 +205,7 @@ const Hero = () => {
                                     position: 'absolute',
                                     width: '5px',
                                     top: { lg: '390px', xs: '400px' },
-                                    left: { lg: '370px', xs: '310px', md: '430px' },
+                                    left: { lg: '370px', xs: '310px', md: '360px' },
                                     borderRadius: '2px',
                                     '&::before': {
                                         background: 'rgb(255, 255, 255)',
