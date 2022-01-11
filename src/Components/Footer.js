@@ -1,69 +1,43 @@
-import { Box, Container, Typography } from '@mui/material'
+import { Typography } from '@mui/material';
+import { Box, padding } from '@mui/system';
+import React from 'react';
 
-import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
-import { useTheme } from '@mui/material';
-const Footer =()=> {
-
+const Footer = () => {
+    const Styles = {
+        fontSize: '15px',
+        lineHeight: '16px',
+        textAlign: 'center',
+        color: 'rgba(255, 255, 255, 0.7)',
+        display: 'inline-block',
+        padding: '10px'
+    }
     return (
-            <Container >
-               
-                     <Box sx={{
-                         display:'flex',
-                         flexDirection:{
-                             md:'row-reverse',
-                             xs: 'column'
-                         },
-                         gap:'50px',
-                        py:4,
-                     }}>
-                     
-                        <Box sx={{display:'flex',
-                                justifyContent: 'space-around'
-                        }}>
-                        <Typography 
-                            sx={{fontFamily: 'Nunito Sans',
-                                fontStyle: 'normal',
-                                fontWeight: 'normal',
-                                fontSize: '11.9464px',
-                                lineHeight: '16px',
-                                textAlign: 'center',
-                                marginRight:'26px',
-                                color: 'rgba(255, 255, 255, 0.7)',}}
-                        >Support</Typography>
-                        <Typography  sx={{fontFamily: 'Nunito Sans',
-                                fontStyle: 'normal',
-                                fontWeight: 'normal',
-                                fontSize: '11.9464px',
-                                lineHeight: '16px',
-                                textAlign: 'center',
-                                marginRight:'26px',
-                                color: 'rgba(255, 255, 255, 0.7)',}}> Privacy Policy</Typography>
-                        <Typography  sx={{fontFamily: 'Nunito Sans',
-                                fontStyle: 'normal',
-                                fontWeight: 'normal',
-                                fontSize: '11.9464px',
-                                lineHeight: '16px',
-                                textAlign: 'center',
-                                marginRight:'26px',
-                                color: 'rgba(255, 255, 255, 0.7)',}}> Term And Condition</Typography>
-                        </Box>
-                        <Box>
-                        <Typography  sx={{fontFamily: 'Nunito Sans',
-                                fontStyle: 'normal',
-                                fontWeight: 'normal',
-                                fontSize: '11.9464px',
-                                lineHeight: '16px',
-                                textAlign: 'center',
-                                marginRight:'26px',
-                                color: 'rgba(255, 255, 255, 0.7)',}}>© 2020 Enver, All Rights Reserved
-                                </Typography>
-                       
-                       </Box>
-                   
-                     </Box>
-            </Container>
-    )
-}
+        <Box sx={{
+            display: {
+                lg: 'flex',
+                justifyContent: 'space-evenly'
+            },
+            textAlign: 'center',
+            py: '20px'
+        }}>
+            <Box>
+                <Typography sx={Styles}>
+                    Support
+                </Typography>
+                <Typography sx={Styles}>
+                    Privacy Policy
+                </Typography>
+                <Typography sx={Styles}>
+                    Terms and Condition
+                </Typography>
+            </Box>
+            <Box>
+                <Typography sx={Styles}>
+                    &copy; 2022 Enver. All RightReserved
+                </Typography>
+            </Box>
+        </Box>
+    );
+};
 
 export default Footer;

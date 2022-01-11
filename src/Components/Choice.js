@@ -14,7 +14,7 @@ const Choice = () => {
                     <Grid item xs={12} sm={12} lg={6} md={5}>
                         <Typography sx={{
                             fontWeight: 'bold',
-                            fontSize: '40px',
+                            fontSize: { lg:'40px', xs:'20px' },
                             color: 'white'
                         }}>Why Enver Is The <br /> Best Choice?</Typography>
                     </Grid>
@@ -41,8 +41,8 @@ const Choice = () => {
                     background:'#5454D4',
                     borderRadius:'50%',
                     padding:'20px',
-                    left:'47%',
-                    top:'40%',
+                    left:{lg:'47%',xs:'40%'},
+                    top:{ lg:'40%',xs:'30%'},
                     cursor:'pointer'
                 }}>
 

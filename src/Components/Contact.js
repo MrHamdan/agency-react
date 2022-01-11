@@ -17,7 +17,7 @@ const Contact = () => {
                 position: 'absolute',
                 width: '5px',
                 top: { lg: '70px', xs: '20px' },
-                right: { lg: '100px', xs: '50px' },
+                right: { lg: '630px', xs: '50px' },
                 borderRadius: '2px',
                 transform: 'rotate()',
                 '&::after': {
@@ -40,8 +40,8 @@ const Contact = () => {
                 borderRadius: '50% ',
                 position: 'absolute',
                 fontWeight: 'bold',
-                left: { lg: '30px', xs: '20px' },
-                top: { lg: '280px', xs: '410px' },
+                left: { lg: '430px', xs: '20px' },
+                top: { lg: '280px', xs: '390px' },
                 '&::before': {
                     content: '""',
                     width: '50px',
@@ -61,7 +61,7 @@ const Contact = () => {
                     <Grid xs={12} sm={12} md={7}>
                         <Typography variant='h3'
                             sx={{
-                                fontSize: '39.8214px',
+                                fontSize: { lg:'39.8214px', xs:'20px' },
                                 fontWeight: 'bold',
                                 color: '#fff',
                                 lineHeight: '53px',

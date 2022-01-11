@@ -15,8 +15,9 @@ const Portfolio = () => {
                     height: '38px',
                     position: 'absolute',
                     width: '5px',
-                    top: { lg: '-100px', xs: '-80px' },
-                    left: { lg: '0px', xs: '0px' },
+                    top: { lg: '-100px', xs: '-50px' },
+                    left: { lg: '30px', xs: '10px' },
+                    right:{ lg: '30px', xs: '110px'},
                     borderRadius: '2px',
                     transform: 'rotate(25deg)',
                     '&::after': {
@@ -40,7 +41,7 @@ const Portfolio = () => {
                     position: 'absolute',
                     fontWeight: 'bold',
                     left: { lg: '1050px', xs: '270px' },
-                    top: { lg: '60px', xs: '90px' },
+                    top: { lg: '60px', xs: '40px' },
                     '&::before': {
                         content: '""',
                         width: '50px',
@@ -125,7 +126,7 @@ const Portfolio = () => {
             </Box>
             <Typography sx={{
                 fontWeight: 'bold',
-                fontSize: '40px',
+                fontSize: { lg: '40px', xs: '20px' },
                 color: 'white',
                 paddingBottom: '15px',
                 paddingTop: '20px',
@@ -133,15 +134,15 @@ const Portfolio = () => {
             }}>
                 Our Awesome Portfolio
             </Typography>
-            <Box sx={{ textAlign: 'center', marginTop: '61px' }}>
+            <Box sx={{ textAlign: 'center', marginTop: {lg:'61px',xs:'121px'} }}>
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                     <Grid item xs={12} sm={4} md={4} sx={{ padding: '40px' }}>
                         <img style={{ width: '100%', backgroundColor: '#1E1E20', padding: '20px', borderRadius: '20px' }} src={portfolioOne} alt="" />
                     </Grid>
-                    <Grid item xs={12} sm={4} md={4} sx={{ marginTop: '50px', padding: '40px' }}>
+                    <Grid item xs={12} sm={4} md={4} sx={{ marginTop: {lg:'50px',xs:'20px'}, padding: '40px' }}>
                         <img style={{ width: '100%', backgroundColor: '#1E1E20', padding: '20px', borderRadius: '20px' }} src={portfolioTwo} alt="" />
                     </Grid>
-                    <Grid item xs={12} sm={4} md={4} sx={{ marginTop: '100px', padding: '40px' }}>
+                    <Grid item xs={12} sm={4} md={4} sx={{ marginTop: {lg:'100px',xs:'20px'}, padding: '40px' }}>
                         <img style={{ width: '100%', backgroundColor: '#1E1E20', padding: '20px', borderRadius: '20px' }} src={portfolioThree} alt="" />
                     </Grid>
                 </Grid>

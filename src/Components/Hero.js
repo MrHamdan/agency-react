@@ -45,7 +45,7 @@ const Hero = () => {
                                 width: '249px',
                                 left: {
                                     md: '77px',
-                                    xs: '55px'
+                                    xs: '60px'
                                 },
                                 bottom: '36px',
                                 transform: 'rotate(24deg)',
@@ -61,7 +61,7 @@ const Hero = () => {
                                 position: 'absolute',
 
                                 border: '1px solid #fff',
-                                left: { md: '50px', xs: '30px', },
+                                left: { lg: '50px', xs: '50px', },
                                 bottom: '84px',
                                 transform: 'rotate(24deg)',
                                 borderRadius: '10px',
@@ -187,6 +187,7 @@ const Hero = () => {
                                     position: 'absolute',
                                     fontWeight: 'bold',
                                     left: { lg: '350px', xs: '270px' },
+                                    top: { lg: '0px', xs: '20px' },
                                     '&::before': {
                                         content: '""',
                                         width: '50px',

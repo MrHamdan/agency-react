@@ -34,9 +34,9 @@ const Services = () => {
                     position: 'absolute',
                     width: '27px',
                     height: '53px',
-                    left: { lg: '-50px', xs: '10px' },
+                    left: { lg: '170px', xs: '0px' },
                     right: ' 0px',
-                    top: { lg: '150px', xs: '180px' },
+                    top: { lg: '120px', xs: '110px' },
                     borderLeft: '3.65476px solid #E7E7E7',
                     '&::before': {
                         content: '""',
@@ -67,9 +67,9 @@ const Services = () => {
                     position: 'absolute',
                     width: '27px',
                     height: '53px',
-                    left: { lg: '-45px', md: '-50px', xs: '20px' },
+                    left: { lg: '178px', md: '-50px', xs: '10px' },
                     right: '0px',
-                    top: { lg: '171px', xs: '200px' },
+                    top: { lg: '140px', xs: '130px' },
                     borderLeft: "1.65476px solid #E7E7E7",
                     borderRadius: '2px',
                     transform: 'rotate()',
@@ -103,8 +103,8 @@ const Services = () => {
                     height: '38px',
                     position: 'absolute',
                     width: '5px',
-                    top: { lg: '220px', xs: '200px' },
-                    left: { lg: '1100px', xs: '300px' },
+                    top: { lg: '190px', xs: '150px' },
+                    left: { lg: '1090px', xs: '330px' },
                     borderRadius: '2px',
                     transform: 'rotate(30deg)',
                     '&::after': {
@@ -123,7 +123,7 @@ const Services = () => {
                 <Typography sx={{
                     textAlign: 'center',
                     fontWeight: 'bold',
-                    fontSize: { lg: '39px', xs: '30px' },
+                    fontSize: { lg: '39px', xs: '20px' },
                     color: 'white',
                     paddingBottom: '15px',
                     paddingTop: '120px'
@@ -133,7 +133,7 @@ const Services = () => {
                 <Typography sx={{
                     textAlign: 'center',
                     fontWeight: 'bold',
-                    fontSize: { lg: '39px', xs: '30px' },
+                    fontSize: { lg: '39px', xs: '20px' },
                     color: 'white',
                     paddingBottom: '15px',
                     marginTop: '-20px'
