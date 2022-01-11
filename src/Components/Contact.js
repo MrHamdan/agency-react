@@ -65,7 +65,7 @@ const Contact = () => {
                                 fontWeight: 'bold',
                                 color: '#fff',
                                 lineHeight: '53px',
-
+                                marginLeft:{xs:'30px'}
 
                             }}
                         >
@@ -74,7 +74,7 @@ const Contact = () => {
                     </Grid>
                     <Grid xs={12} sm={12} md={3}
                         sx={{
-                            marginLeft: '120px'
+                            marginLeft: {lg:'120px',xs:'-50px'}
                         }}>
                         <Button
                             sx={
