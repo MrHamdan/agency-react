@@ -8,6 +8,20 @@ const Portfolio = () => {
     return (
         <Container sx={{ marginTop: '131px' }}>
             <Box sx={{
+                position: 'absolute',
+                display:{xs:'none',lg:'block',md:'none'},
+                width: { lg:'397.93px',xs:'100px'},
+                height: { lg:'433.29px',xs:'100px'},
+                left: { lg:'1300px',xs:'50px'},
+                top: {lg:'2350px',xs:'50px'},
+                background: 'linear-gradient(180deg, rgba(84, 84, 212, 0.3) 0%, rgba(84, 84, 212, 0.084) 100%)',
+                filter: 'blur(199.107px)',
+                borderRadius: '154.972px',
+                transform: 'matrix(-0.58, -0.81, -0.81, 0.58, 0, 0)',
+            }}>
+
+            </Box>
+            <Box sx={{
                 position: 'relative',
             }}>
                 <Box sx={{
@@ -65,10 +79,10 @@ const Portfolio = () => {
                     position: 'absolute',
                     left: {
                         lg: '-50px',
-                        xs: '16px',
+                        xs: '36px',
                         md:'20px'
                     },
-                    top: { lg: '650px', md: '500px', xs: '1300px' },
+                    top: { lg: '650px', md: '500px', xs: '1200px' },
                     '&::before': {
                         content: '""',
                         border: 'solid rgb(255, 255, 255)',
@@ -100,7 +114,7 @@ const Portfolio = () => {
                     position: 'absolute',
                     left: '51%',
                     borderRadius: ' 10px',
-                    top: { lg: '660px ', xs: '1300px', md:'500px' },
+                    top: { lg: '660px ', xs: '1200px', md:'500px' },
                     '&::before': {
                         content: '""',
                         height: '5px',

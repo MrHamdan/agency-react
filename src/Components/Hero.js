@@ -7,6 +7,33 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const Hero = () => {
     return (
         <Container maxWidth="lg" sx={{ paddingTop: '98px' }}>
+            <Box sx={{
+                position: 'absolute',
+                display:{xs:'none',lg:'block',md:'none'},
+                width: { lg:'309.94px',xs:'200px'},
+                height: { lg:'818.86px',xs:'200px'},
+                left: { lg:'431px',xs:'100px'},
+                top: '-62px',
+                background: 'linear-gradient(180deg, rgba(84, 84, 212, 0.40) 0%, rgba(84, 84, 212, 0.1134) 100%)',
+                filter: 'blur(199.107px)',
+                borderRadius: '154.972px',
+                transform: 'rotate(-54.37deg)',
+                '&::before': {
+                    content: '""',
+                    display:{xs:'none',lg:'block'},
+                    position: 'absolute',
+                    width: {lg:'309.94px',xs:'100px'},
+                    height: { lg:'828.7px',xs:'100px'},
+                    left: { lg:'445px',xs:'50px'},
+                    top: '832px',
+                    background: 'linear-gradient(rgba(251, 168, 28, 0.30) 0%, rgba(224, 86, 136, 0.063) 100%)',
+                    filter: 'blur(199.107px)',
+                    borderRadius: '154.972px',
+                    transform: 'rotate(286deg)',
+                }
+            }}>
+
+            </Box>
             <Box sx={{ flexGrow: 1 }}>
                 <Grid container spacing={2}>
                     <Grid item xs={12} sm={12} lg={8} md={6}>
@@ -29,6 +56,7 @@ const Hero = () => {
                     </Grid>
                     <Grid item xs={12} sm={12} lg={4} md={6} >
                         <Box sx={{
+                            marginTop:{xs:'70px'},
                             position: 'relative',
                             '&::before': {
                                 position: 'absolute',

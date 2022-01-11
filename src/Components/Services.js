@@ -28,6 +28,33 @@ const Services = () => {
     return (
         <Container>
             <Box sx={{
+                position: 'absolute',
+                display:{xs:'none',lg:'block',md:'none'},
+                width: {lg:'309.94px',xs:'100px'},
+                height: {lg:'337.48px',xs:'100px'},
+                left: { lg:'223px',xs:'50px'},
+                top: '1730px',
+                background: 'linear-gradient(180deg, rgba(84, 84, 212, 0.6) 0%, rgba(84, 84, 212, 0.0882) 100%)',
+                filter: 'blur(199.107px)',
+                borderRadius: '154.972px',
+                transform: 'rotate(-54.37deg)',
+                '&::before': {
+                    content: '""',
+                    position: 'absolute',
+                    display:{xs:'none',lg:'block',md:'none'},
+                    width: {lg:'570.77px', xs:'100px'},
+                    height: {lg:'1067px',xs:'100px'},
+                    left: '-110px',
+                    top: '408px',
+                    background: 'linear-gradient(180deg, rgba(251, 168, 28, 0.078) 0%, rgba(224, 86, 136, 0.078) 100%)',
+                    filter: 'blur(199.107px)',
+                    borderRadius: '154.972px',
+                    transform: 'rotate(117deg)',
+                }
+            }}>
+
+            </Box>
+            <Box sx={{
                 position: 'relative',
             }}>
                 <Box sx={{

@@ -17,7 +17,7 @@ const Contact = () => {
                 position: 'absolute',
                 width: '5px',
                 top: { lg: '70px', xs: '20px' },
-                right: { lg: '630px', xs: '50px' },
+                right: { lg: '670px', xs: '50px' },
                 borderRadius: '2px',
                 transform: 'rotate()',
                 '&::after': {
@@ -40,7 +40,7 @@ const Contact = () => {
                 borderRadius: '50% ',
                 position: 'absolute',
                 fontWeight: 'bold',
-                left: { lg: '430px', xs: '20px', md:'30px' },
+                left: { lg: '450px', xs: '20px', md:'30px' },
                 top: { lg: '280px', xs: '390px', md:'290px' },
                 '&::before': {
                     content: '""',
@@ -58,7 +58,7 @@ const Contact = () => {
             </Box>
             <Container>
                 <Grid container spacing={2}>
-                    <Grid xs={12} sm={12} md={7}>
+                    <Grid xs={12} sm={12} md={7} lg={6}>
                         <Typography variant='h3'
                             sx={{
                                 fontSize: { lg:'39.8214px', xs:'20px' },
@@ -72,10 +72,8 @@ const Contact = () => {
                             Contact us for the service <br /> you want to use
                         </Typography>
                     </Grid>
-                    <Grid xs={12} sm={12} md={3}
-                        sx={{
-                            marginLeft: {lg:'120px',xs:'-50px',md:'140px'}
-                        }}>
+                    <Grid xs={12} sm={12} md={3} lg={6}
+                        >
                         <Button
                             sx={
                                 {
@@ -86,7 +84,7 @@ const Contact = () => {
                                     background: '#5454D4',
                                     fontWeight: '400',
                                     marginTop: '30px',
-                                    marginLeft: '80px'
+                                    marginLeft: { lg:'150px',xs:'30px'}
                                 }}
                         >Contact us</Button>
                     </Grid>
