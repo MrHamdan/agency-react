@@ -8,13 +8,7 @@ const Hero = () => {
     return (
         <Container maxWidth="lg" sx={{ paddingTop: '98px' }}>
             <Box sx={{ flexGrow: 1 }}>
-                <Grid container spacing={2} sx={{
-                    '@media(max-width: 668)': {
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center'
-                    }
-                }}>
+                <Grid container spacing={2}>
                     <Grid item xs={12} sm={12} lg={8} md={5}>
                         <Typography sx={{
                             fontWeight: 'bold',
@@ -112,7 +106,7 @@ const Hero = () => {
                                     position: 'absolute',
                                     width: '27px',
                                     height: '53px',
-                                    left: { lg: '-50px', xs: '10px',md:'1   0px' },
+                                    left: { lg: '-50px', xs: '10px', md: '1   0px' },
                                     right: ' 0px',
                                     top: { lg: '350px', xs: '380px' },
                                     borderLeft: '3.65476px solid #E7E7E7',
@@ -187,15 +181,15 @@ const Hero = () => {
                                     borderRadius: '50% ',
                                     position: 'absolute',
                                     fontWeight: 'bold',
-                                    left: { lg: '350px', xs: '270px', md:'400px' },
-                                    top: { lg: '0px', xs: '20px', md:'30px' },
+                                    left: { lg: '350px', xs: '270px', md: '400px' },
+                                    top: { lg: '0px', xs: '20px', md: '30px' },
                                     '&::before': {
                                         content: '""',
                                         width: '50px',
                                         height: '50px',
                                         borderRadius: '50%',
                                         position: 'absolute',
-                                        top: {lg:'15px', xs:'0px', md:'20px'},
+                                        top: { lg: '15px', xs: '0px', md: '20px' },
                                         left: '10px',
                                         border: '3px solid #fff',
                                         opacity: '0.5'
@@ -210,8 +204,8 @@ const Hero = () => {
                                     height: '38px',
                                     position: 'absolute',
                                     width: '5px',
-                                    top: { lg:'390px',xs:'400px'},
-                                    left: { lg: '370px', xs: '310px',md:'430px' },
+                                    top: { lg: '390px', xs: '400px' },
+                                    left: { lg: '370px', xs: '310px', md: '430px' },
                                     borderRadius: '2px',
                                     '&::before': {
                                         background: 'rgb(255, 255, 255)',
