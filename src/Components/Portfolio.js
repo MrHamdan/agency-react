@@ -40,7 +40,7 @@ const Portfolio = () => {
                     borderRadius: '50% ',
                     position: 'absolute',
                     fontWeight: 'bold',
-                    left: { lg: '1050px', xs: '270px' },
+                    left: { lg: '1050px', xs: '270px',md:'750px' },
                     top: { lg: '60px', xs: '40px' },
                     '&::before': {
                         content: '""',
@@ -64,10 +64,11 @@ const Portfolio = () => {
                     transform: 'rotate(-135deg)',
                     position: 'absolute',
                     left: {
-                        md: '-50px',
-                        xs: '16px'
+                        lg: '-50px',
+                        xs: '16px',
+                        md:'20px'
                     },
-                    top: { lg: '650px', md: '-50px', xs: '1300px' },
+                    top: { lg: '650px', md: '500px', xs: '1300px' },
                     '&::before': {
                         content: '""',
                         border: 'solid rgb(255, 255, 255)',
@@ -99,7 +100,7 @@ const Portfolio = () => {
                     position: 'absolute',
                     left: '51%',
                     borderRadius: ' 10px',
-                    top: { lg: '660px ', xs: '1300px' },
+                    top: { lg: '660px ', xs: '1300px', md:'500px' },
                     '&::before': {
                         content: '""',
                         height: '5px',

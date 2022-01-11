@@ -40,8 +40,8 @@ const Contact = () => {
                 borderRadius: '50% ',
                 position: 'absolute',
                 fontWeight: 'bold',
-                left: { lg: '430px', xs: '20px' },
-                top: { lg: '280px', xs: '390px' },
+                left: { lg: '430px', xs: '20px', md:'30px' },
+                top: { lg: '280px', xs: '390px', md:'290px' },
                 '&::before': {
                     content: '""',
                     width: '50px',
@@ -74,7 +74,7 @@ const Contact = () => {
                     </Grid>
                     <Grid xs={12} sm={12} md={3}
                         sx={{
-                            marginLeft: {lg:'120px',xs:'-50px'}
+                            marginLeft: {lg:'120px',xs:'-50px',md:'140px'}
                         }}>
                         <Button
                             sx={

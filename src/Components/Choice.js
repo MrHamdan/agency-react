@@ -41,8 +41,8 @@ const Choice = () => {
                     background:'#5454D4',
                     borderRadius:'50%',
                     padding:'20px',
-                    left:{lg:'47%',xs:'40%'},
-                    top:{ lg:'40%',xs:'30%'},
+                    left:{lg:'47%',xs:'40%',md:'46%'},
+                    top:{ lg:'40%',xs:'30%',md:'40%'},
                     cursor:'pointer'
                 }}>
 
